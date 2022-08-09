@@ -28,5 +28,7 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
     },
-    plugins: [new MiniCssExtractPlugin(), new HtmlWebpackPlugin()],
+    plugins: [new MiniCssExtractPlugin(), new HtmlWebpackPlugin({
+        title: 'Webpack tutorial'
+    })],
 }
