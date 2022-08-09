@@ -1,5 +1,7 @@
 import { addNum } from './utils/math';
 
+import './index.css';
+
 const result1 = addNum(1, 3);
 
 console.log(result1);
