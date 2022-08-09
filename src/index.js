@@ -1,4 +1,5 @@
 import { addNum } from './utils/math';
+import { parseString } from './utils/string'
 import image from './image.jpg';
 import './index.css';
 
@@ -15,7 +16,7 @@ const headingDiv = document.createElement('div');
 const img = new Image();
 img.src = image;
 
-const newContent = document.createTextNode("Hi there and greetings!");
+const newContent = document.createTextNode(parseString('Hi there and greetings!', '*'));
 headingDiv.appendChild(newContent);
 
 document.body.appendChild(headingDiv);
