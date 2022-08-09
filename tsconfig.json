@@ -1,0 +1,11 @@
+{
+    "include": [
+        "src/*"
+    ],
+    "compilerOptions": {
+        "target": "es5",
+        "jsx": "react",
+        "esModuleInterop": true, // Disables namespace imports (import * as fs from "fs") and enables CJS/AMD/UMD style imports (import fs from "fs")
+        "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+    }
+}

@@ -1,8 +1,8 @@
 import React, {} from 'react';
 import { createRoot } from 'react-dom/client'
 import { addNum } from './utils/math';
-import { parseString } from './utils/string'
-import image from './image.jpg';
+// import { parseString } from './utils/string'
+// import image from './image.jpg';
 import App from './App';
 import './index.css';
 
