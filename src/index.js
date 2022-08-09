@@ -1,5 +1,5 @@
 import { addNum } from './utils/math';
-
+import image from './image.jpg';
 import './index.css';
 
 console.log('Webpack tutorial')
@@ -12,7 +12,11 @@ console.log(result2);
 
 const headingDiv = document.createElement('div');
 
+const img = new Image();
+img.src = image;
+
 const newContent = document.createTextNode("Hi there and greetings!");
 headingDiv.appendChild(newContent);
 
 document.body.appendChild(headingDiv);
+document.body.appendChild(img);
